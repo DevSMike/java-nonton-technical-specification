@@ -37,14 +37,14 @@ class ProductsImpl {
     // Добавляет новый продукт
     // Возвращает true, если продукта с таким id еще не было
     // Возвращает false, если был такой id, вставка отменяется
-    bool addProduct(struct Product product) {
+    bool addProduct(Product product) {
         // Реализация
     }
 
     // Удаляет продукт
     // Возвращает true, если продукт с таким id был
     // Возвращает false, если id не было, удаление не происходит
-    bool deleteProduct(struct Product product) {
+    bool deleteProduct(Product product) {
         // Реализация
     }
 
